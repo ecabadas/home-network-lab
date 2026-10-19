@@ -2,23 +2,9 @@
 
 ## Topology
 
-```
-                    Xfinity coax
-                         |
-              Arris Surfboard S33
-            (DOCSIS 3.1 modem, 2.5 GbE port)
-                         |  Cat6
-              Ubiquiti Cloud Gateway Max
-        (gateway, firewall, UniFi controller)
-                         |  LAN
-                   PoE switch
-                    /        \
-        Patch panel           UniFi access point
-       (in-wall drops)        (segmented wireless)
-        /      \
-   Office    Other rooms
-```
+<img width="306" height="362" alt="Screenshot 2026-10-18 230939" src="https://github.com/user-attachments/assets/e1518756-4731-4240-a6cf-5e1b8d80c541" />
 
+         
 Physical path: ISP coax → modem → gateway WAN (2.5 GbE) → gateway LAN → PoE switch → patch panel → room drops; access point powered via PoE.
 
 ## Inventory
@@ -28,7 +14,7 @@ Physical path: ISP coax → modem → gateway WAN (2.5 GbE) → gateway LAN → 
 | Modem | Arris Surfboard S33 | DOCSIS 3.1 modem, 2.5 GbE uplink |
 | Gateway | Ubiquiti Cloud Gateway Max (base, no storage) | Router, firewall, UniFi controller host |
 | Switch | 8-port PoE switch | LAN distribution, AP power |
-| Access point | UniFi AP | Wireless coverage |
+| Access point | UniFi U7 Lite (AP) | Wireless coverage |
 | Patch panel | 12-port Cat6 | Terminates in-wall drops |
 | UPS | APC Back-UPS (600VA) | Battery backup for modem, gateway, and switch |
 
@@ -39,5 +25,4 @@ Physical path: ISP coax → modem → gateway WAN (2.5 GbE) → gateway LAN → 
 
 ## Notes
 
-- IP addresses, MAC addresses, and wireless network names are obscured in this repo (see the privacy note in the [README](README.md)).
-- Firmware versions change over time; the versions in effect during the throughput investigation are documented in [troubleshooting/wan-throughput-degradation.md](troubleshooting/wan-throughput-degradation.md).
+- IP addresses, MAC addresses, and wireless network names are obscured in this repo 
