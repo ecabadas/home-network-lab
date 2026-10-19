@@ -6,6 +6,16 @@ I replaced my ISP-provided gateway with my own modem and a Ubiquiti Cloud Gatewa
 
 **Bottom line:** 1.2 Gbps plan. Was getting ~80-170 Mbps wired on auto-negotiation. Now getting ~950 Mbps.
 
+## Skills Demonstrated
+- **Network segmentation:** Separate VLANs for trusted, IoT, and guest traffic, each with its own SSID and DHCP scope
+- **Power over Ethernet:** Access point powered and managed through the switch, no injector needed
+- **Structured troubleshooting:** Isolated one variable at a time, documented every result, ruled out each layer before moving up
+- **Vendor escalation:** Opened a support ticket with test data and benchmarks, got a dev-team fix prescribed
+- **Physical layer:** Ran coax and Ethernet by hand, terminated keystone jacks and the patch panel, built my own patch and test cables
+- **DNS and DHCP:** Per-VLAN scopes on the gateway
+- **Documentation:** Build log, incident write-up with observations separated from hypotheses, topology diagram
+
+
 ## The Build
 
 - **Modem:** Arris Surfboard S33 (DOCSIS 3.1, 2.5 GbE port) - replaced the ISP gateway
