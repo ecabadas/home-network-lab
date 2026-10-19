@@ -2,7 +2,7 @@
 
 ## TL;DR
 
-I replaced my ISP-provided gateway with my own modem and a Ubiquiti Cloud Gateway Max, expecting a straightforward cutover. Instead, the new gateway immediately showed a WAN throughput bug: with the WAN port on auto-negotiation, wired downloads collapsed to a fraction of my plan speed. I spent two weeks methodically isolating the problem, ruled out every other variable one by one, worked with Ubiquiti support using my test data, and their dev team used my findings to prescribe a fix. It worked. I am now running stable while waiting on a permanent fix.
+I replaced my ISP-provided gateway with my own modem and a Ubiquiti Cloud Gateway Max, expecting a straightforward cutover. Instead, the new gateway immediately showed a WAN throughput bug: with the WAN port on auto-negotiation, wired downloads collapsed to a fraction of my plan speed. I spent about a week methodically isolating the problem, ruled out every other variable one by one, worked with Ubiquiti support using my test data, and their dev team used my findings to prescribe a fix. It worked. I am now running stable while waiting on a permanent fix.
 
 **Bottom line:** 1.2 Gbps plan. Was getting ~80-170 Mbps wired on auto-negotiation. Now getting ~950 Mbps.
 
