@@ -2,7 +2,8 @@
 
 ## Topology
 
-<img width="306" height="362" alt="Screenshot 2026-10-18 230939" src="https://github.com/user-attachments/assets/e1518756-4731-4240-a6cf-5e1b8d80c541" />
+<img width="714" height="966" alt="HomeNetworkTopo drawio" src="https://github.com/user-attachments/assets/cf3576a1-4680-4d89-a5ea-e5894c2d371b" />
+
 
          
 Physical path: ISP coax → modem → gateway WAN (2.5 GbE) → gateway LAN → PoE switch → patch panel → room drops; access point powered via PoE.
