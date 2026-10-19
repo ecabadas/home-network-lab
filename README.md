@@ -64,4 +64,4 @@ The fix involves runtime commands that do not survive a reboot, so I reapply the
 - Waiting on Ubiquiti's permanent fix
 - Planned: NAS (network attached storage) for family photos and media
 - Planned: Proxmox hypervisor on a small home server to host AdGuard Home (DNS filtering), a remote-access VPN, and a game server
-- Planned: finishing the IoT and guest VLAN segmentation
+- Planned: dedicated wired-only VLAN for home servers
